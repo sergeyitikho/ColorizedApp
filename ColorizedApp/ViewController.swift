@@ -22,7 +22,7 @@ class ViewController: UIViewController {
         setupView()
     }
 
-    @IBAction func redColorSliderMoved() {
+    @IBAction func sliderMoved() {
         redLabel.text = String(format: "%.1f", redSlider.value)
         greenLabel.text = String(format: "%.1f", greenSlider.value)
         blueLabel.text = String(format: "%.1f", blueSlider.value)

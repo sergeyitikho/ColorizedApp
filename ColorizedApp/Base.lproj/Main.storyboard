@@ -33,7 +33,7 @@
                                             <constraint firstAttribute="width" constant="243" id="UeR-Fh-GLT"/>
                                         </constraints>
                                         <connections>
-                                            <action selector="redColorSliderMoved" destination="BYZ-38-t0r" eventType="valueChanged" id="KDn-Ea-PHJ"/>
+                                            <action selector="sliderMoved" destination="BYZ-38-t0r" eventType="valueChanged" id="KDn-Ea-PHJ"/>
                                         </connections>
                                     </slider>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dTc-zi-qQf">
@@ -48,7 +48,7 @@
                                             <constraint firstAttribute="width" constant="243" id="MqP-QD-Kdb"/>
                                         </constraints>
                                         <connections>
-                                            <action selector="redColorSliderMoved" destination="BYZ-38-t0r" eventType="valueChanged" id="QYf-xt-9QD"/>
+                                            <action selector="sliderMoved" destination="BYZ-38-t0r" eventType="valueChanged" id="QYf-xt-9QD"/>
                                         </connections>
                                     </slider>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ngx-jb-8Ng">
@@ -63,7 +63,7 @@
                                             <constraint firstAttribute="width" constant="243" id="QOD-BM-Fn3"/>
                                         </constraints>
                                         <connections>
-                                            <action selector="redColorSliderMoved" destination="BYZ-38-t0r" eventType="valueChanged" id="e24-Hx-nDh"/>
+                                            <action selector="sliderMoved" destination="BYZ-38-t0r" eventType="valueChanged" id="e24-Hx-nDh"/>
                                         </connections>
                                     </slider>
                                 </subviews>
