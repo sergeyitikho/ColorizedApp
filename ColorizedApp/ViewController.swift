@@ -26,7 +26,6 @@ class ViewController: UIViewController {
         redLabel.text = String(format: "%.1f", redSlider.value)
         greenLabel.text = String(format: "%.1f", greenSlider.value)
         blueLabel.text = String(format: "%.1f", blueSlider.value)
-        
         view.backgroundColor = UIColor (red: CGFloat(redSlider.value), green: CGFloat(greenSlider.value), blue: CGFloat(blueSlider.value), alpha: 1.0)
     }
     
@@ -37,9 +36,6 @@ class ViewController: UIViewController {
         redSlider.tintColor = .red
         greenSlider.tintColor = .green
         blueSlider.tintColor = .blue
-        
     }
-    
-    
 }
 
